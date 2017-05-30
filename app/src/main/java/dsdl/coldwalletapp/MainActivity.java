@@ -9,19 +9,22 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private TextView result;
+    private EditText token;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        result = (TextView) findViewById(R.id.result);
+        token = (EditText) findViewById(R.id.token);
     }
 
-    protected void onSubmitClick(View v){
-        EditText token = (EditText)findViewById(R.id.Token);
+    public void onSubmitClick(View v){
         String s = token.getText().toString();
         // Send s via BLE
-
-        String res = "XDD";
-        TextView result = (TextView)findViewById(R.id.Result);
+        
+        String res = "XDDDD";
         result.setText(res);
     }
 

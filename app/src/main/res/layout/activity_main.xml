@@ -20,17 +20,16 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/TokenText"
+                android:id="@+id/tokenText"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="TextView"
+                android:text="Token: "
                 android:textColor="@android:color/background_dark"
-                android:textSize="30sp"
-                tools:text="Token: " />
+                android:textSize="30sp" />
 
             <EditText
-                android:id="@+id/Token"
+                android:id="@+id/token"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="9"
@@ -44,17 +43,16 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/ResultText"
+                android:id="@+id/resultText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="TextView"
+                android:text="Result: "
                 android:textColor="@android:color/background_dark"
-                android:textSize="30sp"
-                tools:text="Result: " />
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/Result"
+                android:id="@+id/result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:elevation="1dp"
@@ -70,7 +68,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/Submit"
+                android:id="@+id/submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
